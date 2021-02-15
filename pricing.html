@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<title>pricing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('gym.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+} 
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p><b>PRICING</b></p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('registration').style.display='block'" class="w3-button w3-black">registration</button></p>
+    <p><button onclick="document.getElementById('season pass').style.display='block'" class="w3-button w3-black">season pass</button></p>
+    <p><button onclick="document.getElementById('promotions').style.display='block'" class="w3-button w3-black">promotions</button></p>
+  </div>  
+
+ <!-- registration -->
+<div id="registration" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('registration').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>NEW HERE?</h1>
+    </div>
+    <div class="w3-container">
+      <h5 style="color:black;">Regardless of age, everyone is welcomed to our gym! For first timers, you are required to pay a one-time registration fee. </h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Fees</h1>
+    </div>
+    <div class="w3-container">
+      <h5 style="color:black;">youths [below 21]<b>$5.50</b></h5>
+      <h5 style="color:black;">adults<b>$8.00</b></h5>
+      <h5 style="color:black;">seniors [above 55]<b>$4.00</b></h5>
+    </div>
+  </div>
+</div>
+
+<!-- season pass -->
+<div id="season pass" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('season pass').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Monthly</h1>
+    </div>
+    <div class="w3-container">
+      <h5 style="color:black;">Youths [below 21] <b>$5.00/h</b></h5>
+      <h5 style="color:black;">Adults <b>$8.00/h</b></h5>
+      <h5 style="color:black;">Seniors [above 55] <b>$4.00/h</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Yearly</h1>
+    </div>
+    <div class="w3-container">
+      <h5 style="color:black;">Youths [below 21] <b>$3.00/h</b></h5>
+      <h5 style="color:black;">Adults <b>$4.50/h</b></h5>
+      <h5 style="color:black;">Seniors [above 55] <b>$2.50/h</b></h5>
+    </div>
+  </div>
+</div>
+
+<!-- promotions -->
+<div id="promotions" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('promotions').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>HAPPY LUNAR NEW YEAR</h1>
+    </div>
+    <div class="w3-container">
+      <h5 style="color:black;">As the Chinese New Year is around the corner, everyone will definitely look forward to munching on all those new year goodies. Indulge in those goodies guilt-free by dropping by a few hours a day at our gym! For a fixed price, come and exercise at our gym for as long as you want! This promotion starts from 10 Feb to 25 Feb.</h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Sepcial Rates</h1>
+    </div>
+    <div class="w3-container">
+      <h5 style="color:black;">youths [below 21]<b>$4.00/day</b></h5>
+      <h5 style="color:black;">adults<b>$9.00/day</b></h5>
+      <h5 style="color:black;">seniors [above 55]<b>$3.00/day</b></h5>
+    </div>
+  </div>
+</div>
